@@ -1,0 +1,105 @@
+
+.item1{
+    margin-top: 150px;
+    margin-left: 300px;
+    font-size: larger;
+}
+.test1{
+    color: grey;
+}
+.container{
+   display: flex;
+   flex-direction: row;
+   justify-content: space-evenly;
+}
+.child{
+    height: 300px;
+    width: 200px;
+    border: 3px solid red;
+    text-align: center;
+    font-size: larger;
+    color: red;
+}
+.test2{
+    text-decoration: line-through;
+}
+.test3{
+    color: black;
+}
+.material-icons{
+    color: red;
+    font-size: xx-large;
+    position: absolute;
+    top: 170px;
+    right: 400px;
+   
+}
+.text{
+    font-size: x-large;
+    color: grey;
+    position: absolute;
+    top: 170px;
+    right: 310px;
+}
+.trip{
+    color: red;
+}
+
+@media only screen and (min-width:320px) and (max-width:480px){
+
+    
+.item1{
+    margin-top: 20px;
+    margin-left: 20px;
+    font-size: small;
+}
+.test1{
+    color: grey;
+}
+.container{
+   display: flex;
+   flex-direction: column;
+   justify-content: space-evenly;
+   gap: 25px;
+}
+.child{
+    height: 150px;
+    width: 70vw;
+    border: 3px solid red;
+    text-align: center;
+    font-size: larger;
+    color: red;
+    justify-content: center;
+    margin-left: 2px;
+    margin-right: 3px;
+}
+.test2{
+    text-decoration: line-through;
+    display: none;
+}
+.test3{
+    color: black;
+    display: none;
+}
+.material-icons{
+    color: red;
+    font-size: xx-large;
+    position: absolute;
+    top: 25px;
+    right: 110px;
+   
+}
+.text{
+    font-size: x-large;
+    color: grey;
+    position: absolute;
+    top: 170px;
+    right: 310px;
+    display: none;
+}
+.trip{
+    color: red;
+}
+
+
+}

@@ -1,0 +1,141 @@
+body{
+    border: 2px solid grey;
+}
+.item1{
+    margin-top: 150px;
+    margin-left: 300px;
+    font-size: larger;
+}
+.test1{
+    color: grey;
+}
+.container{
+   display: flex;
+   justify-content: space-evenly;
+}
+.child{
+    height: 300px;
+    width: 200px;
+    border: 3px solid red;
+    text-align: center;
+    font-size: larger;
+    color: red;
+}
+.test2{
+    text-decoration: line-through;
+}
+.test3{
+    color: black;
+}
+.material-icons{
+    color: red;
+    font-size: xx-large;
+    position: absolute;
+    top: 170px;
+    right: 400px;
+   
+}
+.text{
+    font-size: x-large;
+    color: grey;
+    position: absolute;
+    top: 170px;
+    right: 310px;
+}
+.list{
+    color: red;
+    height: 120px;
+    width: 250px;
+    border: 2px solid red;
+    text-align: center;
+    padding: 1rem;
+    border-radius: 5px;
+    font-size: larger;
+}
+.text1{
+    color: white;
+    background-color: red;
+    border-radius: 5px;
+}
+.parent{
+    z-index: -2;
+    filter: blur(3px);
+}
+.parent1{
+    position: absolute;
+    top: 300px;
+    left: 550px;
+    z-index: 2;
+}
+@media only screen and (min-width:320px) and (max-width:480px){
+    body{
+        border: 2px solid grey;
+    }
+    .item1{
+        margin-top: 50px;
+        margin-left: 50px;
+        font-size: larger;
+    }
+    .test1{
+        color: grey;
+    }
+    .container{
+       display: flex;
+       justify-content: space-evenly;
+    }
+    .child{
+        height: 60vh;
+        width: 80vw;
+        border: 3px solid red;
+        text-align: center;
+        font-size: larger;
+        color: red;
+    }
+    .test2{
+        text-decoration: line-through;
+    }
+    .test3{
+        color: black;
+    }
+    .material-icons{
+        color: red;
+        font-size: xx-large;
+        position: absolute;
+        top: 170px;
+        right: 400px;
+       
+    }
+    .text{
+        font-size: x-large;
+        color: grey;
+        position: absolute;
+        top: 170px;
+        right: 310px;
+    }
+    .list{
+        color: red;
+        height: 100px;
+        width: 180px;
+        border: 2px solid red;
+        text-align: center;
+        padding: 1rem;
+        border-radius: 5px;
+        font-size: larger;
+    }
+    .text1{
+        color: white;
+        background-color: red;
+        border-radius: 5px;
+    }
+    .parent{
+        z-index: -2;
+        filter: blur(3px);
+    }
+    .parent1{
+        position: absolute;
+        top: 170px;
+        left: 70px;
+        z-index: 2;
+    }
+    
+}
